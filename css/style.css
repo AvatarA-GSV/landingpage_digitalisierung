@@ -117,15 +117,14 @@ h2{
 }
 
 .blockquote__text::after{
-  /* position: absolute;
-  top: 60px;
-  left: 61px; */
+  position: absolute;
+  bottom: -11px;
   content: "";
   display: inline-block;
   width: 41px;
   height: 21px;
   background-image: url(../img/quote-down.svg);
-  background-position: 50% 50%;
+  /* background-position: 50% 50%; */
 /*   background-position: right -1px bottom -13px; */
  /*  background-position: right bottom; */
 /*   background-size: cover; */
